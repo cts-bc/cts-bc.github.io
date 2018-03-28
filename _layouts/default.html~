@@ -1,0 +1,17 @@
+<head>
+  <link rel="stylesheet" type="text/css" href="/css/spectre.min.css">
+  <link rel="stylesheet" type="text/css" href="/css/spectre-icons.min.css">
+  <link rel="stylesheet" type="text/css" href="/css/mods.css">
+</head>
+<header>
+{% include header.html %} 
+</header>
+<body>
+  <div class="container">
+    <h1>{{ page.title }}</h1>
+  </div>
+    {{ content }}
+</body>
+<footer>
+
+</footer>

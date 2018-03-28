@@ -1,0 +1,23 @@
+---
+layout: default
+title: "Awards"
+---
+
+
+<div class="container">
+  <h5>2008 | Outstanding Small Business of the Year</h5>
+  <h6 class="text-gray">Tri-Cities Chamber of Commerce</h6>
+  <div class="container">
+     <div class="columns">
+       <div class="col-3 col-mr-auto">
+	 <img src="/assets/tricities_award.jpg">
+       </div>
+       <div class="col-9 col-mr-auto">
+	 <p>
+	CTS was recognized for its positive social conscience and leadership in the local business community by the Tri-Cities Chamber of Commerce as the Outstanding Small Business of the Year for 2008. The Tri-Cities Chamber of Commerce, which represents over 830 businesses in Port Moody, Coquitlam and Port Coquitlam selected CTS for its contribution in the areas of economic development, innovation and community service.
+	 </p>
+       </div>
+     </div>
+  </div>
+  
+</div>

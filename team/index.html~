@@ -1,0 +1,35 @@
+---
+layout: default
+title: "Meet our team"
+---
+
+
+<div class="container">
+  <div class="columns">
+  {% assign sorted_pages = site.pages | sort: "id" %}  
+  {% for page in sorted_pages %}
+  {% if page.category == "profile" %}
+    <div class="column col-3">
+      <div class="card profile">
+	<div class="card-image">
+	  <img src="/assets/{{page.thumbnail}}" alt="profile" class="img-responsive">
+	</div>
+	<div class="card-header">
+	  <div class="card-title h5">{{page.title}}</div>
+	  <h6 class="text-gray">{{page.qual}}</h6>
+	  <div class="card-subtitle h6">{{page.position}}</div>
+	</div>
+	<div class="card-body">
+	</div>
+	<div class="spotlight">
+	  {{page.blurb}}<br>
+	  <a class="btn btn-primary" href="">View profile</a>
+	  <a class="btn btn-default" href="mailto:{{page.email}}">Email</a>	  
+	</div>
+      </div><br>
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>  
+</div>
+  

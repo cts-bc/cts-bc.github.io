@@ -1,0 +1,13 @@
+<head>
+<link rel="stylesheet" type="text/css" href="/css/spectre.min.css">
+<link rel="stylesheet" type="text/css" href="/css/mods.css">
+</head>
+<header>
+{% include header.html %} 
+</header>
+
+<div class="banner">
+  <h1>Creative Transportation Solutions</h1>
+  <h2>25 Years of Innovative Traffic Engineering</h2>
+</div>
+

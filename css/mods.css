@@ -1,0 +1,38 @@
+.navbar{
+    padding: 2%;
+}
+
+.banner{
+    padding: 2%;
+    color: white;
+    background: #002366; /* For browsers that do not support gradients */
+    background: linear-gradient(to right, #002366 , #000032);
+}
+
+.card{
+    position: relative;
+}
+
+.spotlight{
+    /*display: none;*/
+    position: absolute;
+    background-color: rgb(255,255,255,0.5);
+    visibility: hidden;
+    width: 100%;
+    height: 0px;
+    animation: fadeIn 2s;
+}
+
+.card:hover .spotlight{
+    visibility: visible;
+    height: 100%;
+}		     
+
+.centred{
+    text-align: center;
+}
+
+.footer{
+    background-color: #002366;
+    color: white;
+}

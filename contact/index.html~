@@ -1,0 +1,34 @@
+---
+layout: default
+title: "Contact Us"
+---
+
+<div class="container">
+  <div class="columns">
+    <div class="column col-4 col-sm-6">
+      <dl>
+	<dt>Address</dt>
+	<dd>Creative Transportation Solutions Ltd<br>
+	  84A Moody St<br>
+	  Port Moody, BC V3H 2P5
+	</dd>
+	<dt>Phone</dt>
+	<dd>+1 (604) 936 6190</dd>
+	<dt>Fax</dt>
+	<dd>+1 (604) 936 6175</dd>
+	<dt>Website</dt>
+	<dd>cts-bc.com</dd>
+      </dl>
+    </div>
+    <div class="divider-vert" data-content="OR"></div>
+    <div class="column col-4 col-sm-6">
+      <dl>	
+	<dt>General Email</dt>
+	<dd>info@cts-bc.com</dd>
+	<dt>Contact specific person</dt>
+	<dd><a class="btn btn-primary" href="/team">View people</a></dd>
+	</dl>
+    </div>
+  </div>
+</div>
+

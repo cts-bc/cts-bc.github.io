@@ -1,0 +1,15 @@
+---
+layout: default
+title: "Testimonials"
+---
+
+<div class="container">
+  <br><hr><br>
+  <div class="container">
+    <div class="columns">
+      <div class="col-4">
+	<img src="/assets/whistler.png">
+      </div>
+    </div>
+  </div>
+</div>
