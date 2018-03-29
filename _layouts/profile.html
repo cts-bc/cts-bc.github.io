@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<div class="container">
+  <h5>{{page.position}}</h5>
+  <div class="columns">
+    <div class="column col-4 col-sm-12">
+      <img src="{{site.url}}/assets/{{page.thumbnail}}" class="img-responsive">
+    </div>
+    <div class="column col-8 col-sm-12">
+      {{content}}
+      <br><br>
+      <a class="btn btn-default" href="{{site.url}}/team/index.html"><i class="icon icon-back"></i> Back to profiles</a>
+      <a class="btn btn-primary" href="mailto:{{page.email}}"><i class="icon icon-mail"></i> Email</a>
+    </div>
+  </div>
+</div>
+
